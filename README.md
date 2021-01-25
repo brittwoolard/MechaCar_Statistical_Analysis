@@ -36,7 +36,7 @@ Our total meets the design specifications as our total variance is 62 and the cu
 
 T-tests was also performed to check if PSI across all manufacturing lots are statistically different from our population mean. Our P-value is 0.4423 which is higher than 0.05. This as result shows that we cannot reject the hypothesis that there is no statistical difference 
 
-![](ttest.png)
+![](ttest_s.png)
 
 We also discovered looking at lot 1 and lot 2 separately that our p-value was less than 0.05, we as a result can reject the null hypothesis that there is no statistical difference. The population data and lot 1 are statically different 
 
