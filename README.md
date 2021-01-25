@@ -1,4 +1,5 @@
 # MechaCar_Statistical_Analysis
+
 ## Linear Regression to Predict MPG
 Multiple linear regression was performed using multiple variables to predict the mpg of MechaCar prototypes using multiple variables. We used lm() function in R for the model . We then get the p value and R squared value using the summary function in R
 
@@ -10,7 +11,7 @@ Our P-value is 5.35e-11. Since this is less than 0.05, we will reject the null h
 
 The variables that provided non-random amount of variance are intercept, ground clearance and vehicle length. The p-values are less than 0.05 and as a result unlikely to provide random amounts of variance in our model
 
-### Is the slope of the linear model considered to be zero? Why or why not?**
+### Is the slope of the linear model considered to be zero? Why or why not?
 
 No the slope is not zero. Our null hypothesis is to assume the slope is zero. Since we have our p-value less than 0.05, we can say this is not statistically significant and reject the null hypothesis
 
@@ -18,6 +19,36 @@ No the slope is not zero. Our null hypothesis is to assume the slope is zero. Si
 
 Yes, we have a 71percent accuracy from our R squared score
  
+## Summary Statistics on Suspension Coils
+
+Our Second analysis was on suspension coils. We read the data using R function and used summarize () function to get highlevel detail metrics including mean, median, variance and standard deviation. For below, we can see the mean of the datafarame is 1498.78 and the variance is approximately 62
+
+
+![](total_Summary.PNG)
+
+We also employed the use of group by function along with summarize() to group each manufacturing lot by mean, median, variance and standard deviation. Below image shows our result
+
+![](lot_summary.PNG)
+
+Our total meets the design specifications as our total variance is 62 and the current limit is 100. Our lots 1 and 2 also met with the requirement with variances below 100
+
+## T-Tests on Suspension Coils
+
+T-tests was also performed to check if PSI across all manufacturing lots are statistically different from our population mean. Our P-value is 0.4423 which is higher than 0.05. This as result shows that we cannot reject the hypothesis that there is no statistical difference 
+
+![](ttest.PNG)
+
+We also discovered looking at lot 1 and lot 2 separately that our p-value was less than 0.05, we as a result can reject the null hypothesis that there is no statistical difference. The population data and lot 1 are statically different 
+
+![](lot1.PNG)
+
+![](lot2.PNG)
+
+
+Lot 3 has a higher p value than 0.05. This means that we cannot reject our null hypothesis that there is no statistical difference. Lot 3 and the population data are statistically similar
+
+![](lot3.PNG)
+
 
 ## Study Design: MechaCar vs Competition
 
