@@ -5,7 +5,7 @@ Multiple linear regression was performed using multiple variables to predict the
 
 Our P-value is 5.35e-11. Since this is less than 0.05, we will reject the null hypothesis that the slope is 0 and state there is correlation. We also have 71percent from our R-squared which denotes the accuracy of the model
 
-![](Challenge1.PNG)
+![](Challenge1.png)
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -24,11 +24,11 @@ Yes, we have a 71percent accuracy from our R squared score
 Our Second analysis was on suspension coils. We read the data using R function and used summarize () function to get highlevel detail metrics including mean, median, variance and standard deviation. For below, we can see the mean of the datafarame is 1498.78 and the variance is approximately 62
 
 
-![](total_Summary.PNG)
+![](total_Summary.png)
 
 We also employed the use of group by function along with summarize() to group each manufacturing lot by mean, median, variance and standard deviation. Below image shows our result
 
-![](lot_summary.PNG)
+![](lot_summary.png)
 
 Our total meets the design specifications as our total variance is 62 and the current limit is 100. Our lots 1 and 2 also met with the requirement with variances below 100
 
@@ -36,18 +36,18 @@ Our total meets the design specifications as our total variance is 62 and the cu
 
 T-tests was also performed to check if PSI across all manufacturing lots are statistically different from our population mean. Our P-value is 0.4423 which is higher than 0.05. This as result shows that we cannot reject the hypothesis that there is no statistical difference 
 
-![](ttest.PNG)
+![](ttest.png)
 
 We also discovered looking at lot 1 and lot 2 separately that our p-value was less than 0.05, we as a result can reject the null hypothesis that there is no statistical difference. The population data and lot 1 are statically different 
 
-![](lot1.PNG)
+![](lot1.png)
 
-![](lot2.PNG)
+![](lot2.png)
 
 
 Lot 3 has a higher p value than 0.05. This means that we cannot reject our null hypothesis that there is no statistical difference. Lot 3 and the population data are statistically similar
 
-![](lot3.PNG)
+![](lot3.png)
 
 
 ## Study Design: MechaCar vs Competition
