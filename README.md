@@ -5,7 +5,7 @@ Multiple linear regression was performed using multiple variables to predict the
 
 Our P-value is 5.35e-11. Since this is less than 0.05, we will reject the null hypothesis that the slope is 0 and state there is correlation. We also have 71percent from our R-squared which denotes the accuracy of the model
 
-![](Challenge1.PNG)
+![](Challenge1.png)
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
